@@ -1,0 +1,99 @@
+html, body, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    background-image: url(phon.jpg);
+    background-size: cover;
+}
+
+body{
+    padding: 60px;
+}
+
+
+.wrapper{   
+    margin: 0 auto; 
+    max-width: 1024px; /* max-wight - адаптивность*/
+    height: inherit; 
+    
+}
+header{
+    
+    height: 100px; 
+    width: 1024;
+    margin: 0 auto; 
+    padding: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+
+
+h1{
+    color:rgb(17, 2, 27);
+}
+
+main{
+    
+    height: 430px; 
+    weight: 1024;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+.text{
+    width: 45%;
+}
+
+.text {
+    float: left;
+    
+}
+
+.massage__block{
+    width: 45%;
+}
+
+.text img{
+    width: 150px;
+    margin-right: 10px;
+    float: left
+    
+}
+.massage__block{
+    float: right;
+ 
+}
+h2 {
+    margin-left: 10px; 
+    color:rgb(17, 2, 27);
+}
+
+p{
+    margin-left: 10px;
+    color:rgb(26, 16, 63);
+    font-weight:550;
+    font-size: 20px;
+    font-style:unset;
+     
+    
+}
+
+footer{
+   
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.349);
+
+}
+footer p{
+    text-align: center;
+    font-size: 24px;
+    
+}
+footer a {
+    color:darkblue;
+}
