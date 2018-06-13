@@ -83,10 +83,17 @@ p{
     
 }
 
+input, textarea
+{
+  box-shadow: 0 0 5px 5px rgb(150, 135, 144);
+  background: lightgrey;
+}  
+
+
 footer{
    
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.349);
+    background-color:  rgba(255, 255, 255, 0.349);
 
 }
 footer p{
