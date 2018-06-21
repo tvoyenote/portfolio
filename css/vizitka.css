@@ -93,7 +93,7 @@ input, textarea
 
 footer{
    
-    height: 100px;
+    height: 200px;
     background-color:  rgba(255, 255, 255, 0.349);
 
 }
@@ -104,4 +104,43 @@ footer p{
 }
 footer a {
     color:darkblue;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    width: 46px;
+    height: 46px;
+    color: white;
+    text-decoration: none;
+    transition: opacity .1s linear, tranform .1s linear;
+    position:relative;
+    align-items: center;
+}
+.icon--facebook{
+    background-color: rgb(35, 35, 77);
+
+}
+.icon--vk{
+    background-color: rgb(160, 160, 211);
+}
+.icon--github{
+    background-color: rgb(35, 35, 77);
+}
+.icon--youtube{
+    background-color:  rgb(160, 160, 211);
+}
+.icon--twitter{
+    background-color:  rgb(35, 35, 77);
+}
+.icon--linkedin{
+    background-color:  rgb(160, 160, 211);
+}
+.icon :hover {
+    filter: contrast(1.1);
+    transform: scale(1.1);
 }
