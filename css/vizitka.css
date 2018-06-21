@@ -113,13 +113,14 @@ footer a {
     display: inline-block;
     text-align: center;
     font-size: 30px;
-    width: 46px;
-    height: 46px;
+    width: 33px;
+    height: 33px;
     color: white;
     text-decoration: none;
     transition: opacity .1s linear, tranform .1s linear;
     position:relative;
     align-items: center;
+    padding: 10px;
 }
 .icon--facebook{
     background-color: rgb(35, 35, 77);
